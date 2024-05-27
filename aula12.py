@@ -1,10 +1,9 @@
 nome = 'Hellen'
-altura = '1.57'
+altura = 1.57
 peso = 58
-imc = ... #Ellipsis (...) não gera erro 
-
-
-
+imc = peso / altura * altura
+#imc = ... #Ellipsis (...) não gera erro 
+print (f'{nome} tem {altura} altura \n pesa {peso} quilos \n e seu IMC é de {imc}')
 
 
 # Hellen tem 1.57 de altura,
@@ -12,3 +11,13 @@ imc = ... #Ellipsis (...) não gera erro
 # 
 #o calcúlo do imc divide o peso em kg pela altura ao quadrado em metros
 #IMC = peso / (altura x altura)
+
+
+#Resolução Professor:
+nome = 'Luiz Otávio'
+altura = 1.80
+peso = 95
+imc = peso / altura ** 2
+print(nome, 'tem', altura, 'de altura')
+print('pesa', peso, 'quilos e seu imc é', )
+print(imc)
