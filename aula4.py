@@ -24,4 +24,7 @@ print(          )
 print(          )
 
 
-print(    type()      )
+print(type('Hellen'))
+print(type(10))
+print(type(-1))
+print(type(1.1), type(-1.1), type(0.0))
