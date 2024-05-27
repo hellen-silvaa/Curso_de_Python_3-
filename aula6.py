@@ -18,4 +18,8 @@ print(int('5') + 1)
 print(int('1'), type(int('1')))
 print(type(float('8.6') + 1))
 
-print(bool(' '))
+print(bool(' ')) #com espaço -> True
+print(bool('')) #sem espaço -> False
+
+#concatenar 
+print(str(11) + ' b')
