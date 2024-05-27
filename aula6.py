@@ -14,3 +14,8 @@ print(float('1.6') + 1)
 
 print(int('1'), type(int('1')))
 print(int('5') + 1)
+
+print(int('1'), type(int('1')))
+print(type(float('8.6') + 1))
+
+print(bool(' '))
