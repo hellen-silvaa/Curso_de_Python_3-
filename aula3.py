@@ -1,3 +1,4 @@
+#'''Docstring->documentação'''
 """
 Python = Linguagem de Programação
 Tipo de tipagem = Dinâmica / Forte
