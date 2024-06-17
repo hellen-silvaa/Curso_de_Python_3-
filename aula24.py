@@ -7,14 +7,14 @@
 # not in -> não entre (não esta entre)
 # para acesar o indice usamos [ ]
 
-# nome = 'Hellen'
-# print(nome [1])
-# print(nome [-5])
-# print('e' in nome)
-# print('zero' in nome)
-# print(10* '-')
-# print('e' not in nome)
-# print('zero' not in nome)
+nome = 'Hellen'
+print(nome [1])
+print(nome [-5])
+print('e' in nome)
+print('zero' in nome)
+print(10* '-')
+print('e' not in nome)
+print('zero' not in nome)
 
 nome = input('Digite seu nome: ')
 encontrar = input('Digite o que deseja encontrar: ')
@@ -23,3 +23,17 @@ if encontrar in nome:
     print(f'{encontrar} está em {nome}')
 else:
         print(f'{encontrar} não está em {nome}')
+
+
+numero = 10
+ 
+if numero > 1:
+    if numero > 2:
+        if numero > 3:
+            print('Número maior que 3')
+        else:
+            print('Número menor que 3')
+    else:
+        print('Número menor que 2')
+else:
+    print('Número menor que 1')
