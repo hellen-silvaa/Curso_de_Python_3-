@@ -4,7 +4,7 @@
 condicao1 = False
 condicao2 = False
 condicao3 = True
-condicao4 = False
+condicao4 = True
 # se condicao 1 for verdadeira execute este trecho de código
 if condicao1:
     print('Código para condição 1')
@@ -25,5 +25,8 @@ else:
 if 10 ==10:
         print('Outro if')
 
+print('Fora do if')
+
+#verifica a verdadeira e sai, ele não verifica os outros elif
 
 
