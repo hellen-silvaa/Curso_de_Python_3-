@@ -4,7 +4,19 @@ informe se este número é par ou ímpar. Caso o usuário não digite um número
 inteiro, informe que não é um número inteiro.
 """
 
-num_inteiro = input ('Digite um número inteiro: ')
+entrada_str = input ('Digite um número: ')
+
+if entrada_str.isdigit():
+    entrada_int = int(entrada_str)
+    par_impar = entrada_int % 2 == 0
+    par_impar_texto = 'ímpar'
+
+    if par_impar:
+        par_impar_texto = 'par'
+    print(f'O número {entrada_int} é {par_impar_texto}!')
+
+else:
+    print(f'{entrada_int} não é um número inteiro')
 
 
 
