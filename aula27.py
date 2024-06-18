@@ -7,3 +7,7 @@ Fatiamento [i:f:p] [::]
 Obs.: a função len retorna a qtd 
 de caracteres da str
 """
+# : indica o fatiamento
+# len -> tamanho da string
+variavel = 'Olá mundo'
+print(variavel[::-1])
