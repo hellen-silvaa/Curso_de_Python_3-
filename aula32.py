@@ -101,19 +101,18 @@ menos escreva "Seu nome é curto"; se tiver entre 5 e 6 letras, escreva
 # except:
 #      print('Por favor, digite seu nome corretamente')
 
-entrada = input ('Digite seu primeiro nome: ')
 
-nome = len(entrada)
+#SOLUÇÃO 1
+nome = input ('Digite seu nome: ')
 
-try:
+tamanho_nome = len(nome)
 
-    if 1 <= nome <= 4:
+if tamanho_nome > 1:
+    if tamanho_nome <= 4:
         print('Seu nome é curto')
-    elif 5 <= nome <= 6:
+    elif tamanho_nome >= 5 and tamanho_nome <= 6:
         print('Seu nome é normal')
-    elif  nome >= 6:
-        print('Seu nome é muito grande')
     else:
-        print('Não reconheço esse nome')
-except:
-     print('Por favor, digite seu nome corretamente')
+        print('Seu nome é muito grande')
+else:
+    print('Digite mais de uma letra.')
