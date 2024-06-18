@@ -5,8 +5,8 @@ Imutáveis que vimos: str, int, float, bool
 
 #este valor é imutável
 string = 'Maria'
-outra_variavel = f'{string[:2]}'
-print(string[2])
+outra_variavel = f'{string[:2]}ABC{string[3:]}'
+print(outra_variavel)
 
 
 
