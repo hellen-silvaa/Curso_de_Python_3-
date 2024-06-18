@@ -5,6 +5,7 @@ d - int
 f - float
 .<número de dígitos>f
 x ou X - Hexadecimal
+
 (Caractere)(><^)(quantidade)
 > - Esquerda
 < - Direita
@@ -14,3 +15,14 @@ Sinal - + ou -
 Ex.: 0>-100,.1f
 Conversion flags - !r !s !a 
 """
+variavel = 'ABC'
+print(f'{variavel}')
+#10 caracteres na esquerda
+print(f'{variavel: >10}')
+#10 caracteres na direita
+print(f'{variavel: <10}.')
+#10 caracteres no centro
+print(f'{variavel: ^10}')
+print(f'{variavel:$^10}')
+print(f'{1000.6562565:,.1f}')
+
