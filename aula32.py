@@ -60,25 +60,22 @@ Bom dia 0-11, Boa tarde 12-17 e Boa noite 18-23.
 
 #SOLUÇÃO 1
 
-entrada = input('Digite a hora: ')
+# entrada = input('Digite a hora: ')
 
-try:
-    hora = int(entrada)
+# try:
+#     hora = int(entrada)
 
-    if hora >=0 and hora <= 11:
-        ...
-    elif hora >= 12 and hora <= 17:
-            ...
-    elif hora >= 18 and hora <= 23:
-            ...
-    else:
-            print('Não reconheço essa hora')
-except:
-    ...
+#     if hora >=0 and hora <= 11:
+#         print('Bom dia!')
+#     elif hora >= 12 and hora <= 17:
+#         print('Boa tarde!')
+#     elif hora >= 18 and hora <= 23:
+#         print('Boa noite!')
+#     else:
+#         print('Não reconheço essa hora')
+# except:
+#     print('Por favor, digite apenas números inteiros')
 
-
-
-#SOLUÇÃO 2
 
 
 """
@@ -87,3 +84,19 @@ menos escreva "Seu nome é curto"; se tiver entre 5 e 6 letras, escreva
 "Seu nome é normal"; maior que 6 escreva "Seu nome é muito grande". 
 """
 
+entrada = input ('Digite seu primeiro nome: ')
+
+nome = len(entrada)
+
+try:
+
+    if 1 <= nome <= 4:
+        print('Seu nome é curto')
+    elif 5 <= nome <= 6:
+        print('Seu nome é normal')
+    elif  nome >= 6:
+        print('Seu nome é muito grande')
+    else:
+        print('Não reconheço esse nome')
+except:
+     print('Por favor, digite seu nome corretamente')
