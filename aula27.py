@@ -8,6 +8,6 @@ Obs.: a função len retorna a qtd
 de caracteres da str
 """
 # : indica o fatiamento
-# len -> tamanho da string
+# len ->  contar caracteres
 variavel = 'Olá mundo'
 print(variavel[::-1])
