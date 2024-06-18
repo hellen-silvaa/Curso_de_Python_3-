@@ -84,6 +84,23 @@ menos escreva "Seu nome é curto"; se tiver entre 5 e 6 letras, escreva
 "Seu nome é normal"; maior que 6 escreva "Seu nome é muito grande". 
 """
 
+# entrada = input ('Digite seu primeiro nome: ')
+
+# nome = len(entrada)
+
+# try:
+
+#     if 1 <= nome <= 4:
+#         print('Seu nome é curto')
+#     elif 5 <= nome <= 6:
+#         print('Seu nome é normal')
+#     elif  nome >= 6:
+#         print('Seu nome é muito grande')
+#     else:
+#         print('Não reconheço esse nome')
+# except:
+#      print('Por favor, digite seu nome corretamente')
+
 entrada = input ('Digite seu primeiro nome: ')
 
 nome = len(entrada)
