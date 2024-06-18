@@ -11,10 +11,13 @@ id = Identidade
 # print(id(v1))
 # print(id(v2))
 
+#declarar a variavel fora do bloco para usar ela dentro do bloco
 condicao = False
 
 if condicao:
-   print('Faça algo')
+    passou_no_if = True
+    print('Faça algo')
 else:
    print('Não faça algo')
 
+print(passou_no_if)
