@@ -16,17 +16,18 @@ RADAR_RANGE = 1 #A distância onde o radar pega
 #criar variavel do que esta repetindo para deixar o código limpo
 velocidade_carro_passou_RADAR_1 = velocidade > RADAR_1
 
-carro_multado_RADAR_1 = local_carro >= (LOCAL_1 - RADAR_RANGE) and \
+carro_passou_radar_1 = local_carro >= (LOCAL_1 - RADAR_RANGE) and \
         local_carro<= (LOCAL_1 + RADAR_RANGE)
 
-if velocidade_carro_passou_RADAR1:
+carro_multado_radar_1 = carro_passou_radar_1 and velocidade_carro_passou_RADAR_1
+if velocidade_carro_passou_RADAR_1:
     print('Velocidade do carro passou do radar 1')
 
+if carro_passou_radar_1:
+    print('Carro passou radar 1')
 
 #saber se foi ou não multado
-
-if  and \
-            velocidade_carro_passou_RADAR1:
+if carro_multado_radar_1:
     print('Carro multado em radar 1')
 
 
