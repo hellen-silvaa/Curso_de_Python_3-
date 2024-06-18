@@ -36,11 +36,26 @@ inteiro, informe que não é um número inteiro.
 #     print('Você não digitou um número inteiro')
 
 
+
+
 """
 Faça um programa que pergunte a hora ao usuário e, baseando-se no horário 
 descrito, exiba a saudação apropriada. Ex. 
 Bom dia 0-11, Boa tarde 12-17 e Boa noite 18-23.
 """
+
+entrada = input('Digite que horas são: ')
+entrada_int = int(entrada)
+
+bom_dia = 1 <= entrada_int <= 11
+boa_tarde = 12<= entrada_int <=17
+
+if bom_dia:
+    print('Bom dia!')
+elif boa_tarde:
+    print('Boa tarde!')
+else:
+    print('Boa noite!')
 
 
 """
