@@ -6,10 +6,11 @@ Conhecimentos reutilizáveis - índices e fatiamento
 Métodos úteis: append, insert, pop, del, clear, extend, +
 len -> verifica qtd de caractere
 """
+
 #listas conseguimos acessar elementos por elementos
 #        +01234
 #        -54321
-string = 'ABCDE'  # 5 caracteres (len)
+# string = 'ABCDE'  # 5 caracteres (len)
 # print(bool([]))  # falsy
 # print(lista, type(lista))
 #lista = [] lista vazia type = list
@@ -22,16 +23,27 @@ string = 'ABCDE'  # 5 caracteres (len)
 # print(lista[2].upper(), type(lista[-4]))
 
 
-
+#------------------------------------------------------------------------------------------------------------------
 
 #ALTERAR OS VALORES DA LISTA
 
 #indice   0    1      2       3    4
 #indice  -5    -4    -3      -2    -1
-lista = [123, True, 'Hellen', 1.2, []]
-lista[-3] = 'Maria'
-print(lista)
-print(lista[2], type(lista[2]))
+# lista = [123, True, 'Hellen', 1.2, []]
+# lista[-3] = 'Maria'
+# print(lista)
+# print(lista[2], type(lista[2]))
 #aqui alteramos o indice que continha o valor 'hellen' para o valor 'maria'
+
+#------------------------------------------------------------------------------------------------------------------
+
+#indice   0    1      2       3    4
+#indice  -5    -4    -3      -2    -1
+lista = [1,2,3,4]
+#acesso ao indice 2 da lista abaixo: 
+print(lista[2])
+
+
+
 
 
