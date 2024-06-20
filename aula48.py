@@ -52,12 +52,18 @@ Criar, ler, alterar, apagar = lista[i] (CRUD)
 
 #SE EU ALTERAR A LISSTA TODO LUGAR QUE EU REFERENCIAR A LISTA TAMBÉM VAI ALTERAR
 lista = [10,20,30,40] #CRIAR  Create
-lista[2] = 300 #ALTERAR   Update
-del lista[2]
-print(lista)
+# lista[2] = 300 #ALTERAR       Update
+# del lista[2]#DELETAR          Delete
+# print(lista)
 
-#apagando o 30 o 40 passa a ser o indice 2, ele move todos indices da frente
-print(lista[2])
+# #apagando o 30 o 40 passa a ser o indice 2, ele move todos indices da frente
+# print(lista[2])
 
+lista.append(50) # adicionando item no final da lista
+lista.append(60)
+#lista.pop() #remove o último indice da lista
 
+lista.append(70)
+ultimo_valor = lista.pop()
+print(lista, 'Removido,', ultimo_valor)
 
