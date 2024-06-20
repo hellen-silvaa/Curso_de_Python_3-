@@ -14,11 +14,23 @@ string = 'ABCDE'  # 5 caracteres (len)
 # print(lista, type(lista))
 #lista = [] lista vazia type = list
 #lsiats são mutaveis, conseguimos acessar o indice e mudar ele
-
+#upper -> maiusculas
 #posso colocar uma lista dentro de outra
+# indice   0    1      2       3    4
+# indice  -5    -4    -3      -2    -1
+# lista = [123, True, 'Hellen', 1.2, []]
+# print(lista[2].upper(), type(lista[-4]))
+
+
+
+
+#ALTERAR OS VALORES DA LISTA
+
 #indice   0    1      2       3    4
-#indice  -1    -2     -3      -4   -5
+#indice  -5    -4    -3      -2    -1
 lista = [123, True, 'Hellen', 1.2, []]
-print(lista[2], type(lista[-1]))
+lista[-3] = 'Maria'
+print(lista[2], type(lista[2]))
+#aqui alteramos o indice que continha o valor 'hellen' para o valor 'maria'
 
 
