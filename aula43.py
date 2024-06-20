@@ -12,6 +12,8 @@
 texto = 'Python'
 
 novo_texto = ''
+
+#'para cada letra em texto exiba a letra na tela'
 for letra in texto:
     novo_texto += f'*{letra}'
     print(letra)
