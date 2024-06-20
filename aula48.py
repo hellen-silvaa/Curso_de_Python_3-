@@ -30,6 +30,7 @@ string = 'ABCDE'  # 5 caracteres (len)
 #indice  -5    -4    -3      -2    -1
 lista = [123, True, 'Hellen', 1.2, []]
 lista[-3] = 'Maria'
+print(lista)
 print(lista[2], type(lista[2]))
 #aqui alteramos o indice que continha o valor 'hellen' para o valor 'maria'
 
