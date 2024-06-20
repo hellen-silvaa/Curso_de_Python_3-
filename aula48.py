@@ -15,6 +15,10 @@ string = 'ABCDE'  # 5 caracteres (len)
 #lista = [] lista vazia type = list
 #lsiats são mutaveis, conseguimos acessar o indice e mudar ele
 
-lista = [123, True, 'Hellen', 1.2]
+#posso colocar uma lista dentro de outra
+#indice   0    1      2       3    4
+#indice  -1    -2     -3      -4   -5
+lista = [123, True, 'Hellen', 1.2, []]
+print(lista[2], type(lista[-1]))
 
 
