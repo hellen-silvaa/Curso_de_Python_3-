@@ -40,10 +40,24 @@ len -> verifica qtd de caractere
 #indice   0    1      2       3    4
 #indice  -5    -4    -3      -2    -1
 lista = [1,2,3,4]
-#acesso ao indice 2 da lista abaixo: 
+#pegando o valor do indice 2 e mostrando na tela, dado mutavel
+# numero = lista[2]
+# print(numero)
+"""
+Métodos úteis:
+    append, insert, pop, del, clear, extend, +
+Create Read Update   Delete
+Criar, ler, alterar, apagar = lista[i] (CRUD)
+"""
+
+#SE EU ALTERAR A LISSTA TODO LUGAR QUE EU REFERENCIAR A LISTA TAMBÉM VAI ALTERAR
+lista = [10,20,30,40] #CRIAR  Create
+lista[2] = 300 #ALTERAR   Update
+del lista[2]
+print(lista)
+
+#apagando o 30 o 40 passa a ser o indice 2, ele move todos indices da frente
 print(lista[2])
-
-
 
 
 
