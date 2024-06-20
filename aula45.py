@@ -1,13 +1,21 @@
 """
-Iterável -> str, range, etc
+Iterável -> str, range, etc (__iter__)
 Iterador -> quem sabe entregar um valor por vez
 next -> me entregue o próximo valor
 iter -> me entregue seu iterador
-For + Range
-range -> range(start,stop,step)
 """
+# for letra in texto
+texto = 'Hellen'  # iterável
 
-numeros = range(0,100,8)
+# iteratador = iter(texto)  # iterator
 
-for numero in numeros:
-    print(numero)
+
+# while True:
+#     try:
+#         letra = next(iteratador)
+#         print(letra)
+#     except StopIteration:
+#         break
+
+for letra in texto:
+    print(letra)
