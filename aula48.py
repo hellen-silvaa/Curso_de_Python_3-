@@ -12,3 +12,9 @@ len -> verifica qtd de caractere
 string = 'ABCDE'  # 5 caracteres (len)
 # print(bool([]))  # falsy
 # print(lista, type(lista))
+#lista = [] lista vazia type = list
+#lsiats são mutaveis, conseguimos acessar o indice e mudar ele
+
+lista = [123, True, 'Hellen', 1.2]
+
+
