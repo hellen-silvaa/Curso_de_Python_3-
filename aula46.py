@@ -8,7 +8,7 @@ for i in range(10):
         print('i é 8, seu else não executará')
         break#quebra esse laço e pula pra fora do bloco
 
-    for j in range(1, 3):
+    for j in range(1, 3):#inicio e fim
         print(i, j)
 else:
     print('For completo com sucesso!')
