@@ -50,8 +50,8 @@ Create Read Update   Delete
 Criar, ler, alterar, apagar = lista[i] (CRUD)
 """
 
-#SE EU ALTERAR A LISSTA TODO LUGAR QUE EU REFERENCIAR A LISTA TAMBÉM VAI ALTERAR
-lista = [10,20,30,40] #CRIAR  Create
+#SE EU ALTERAR A LISTA TODO LUGAR QUE EU REFERENCIAR A LISTA TAMBÉM VAI ALTERAR
+# lista = [10,20,30,40] #CRIAR  Create
 # lista[2] = 300 #ALTERAR       Update
 # del lista[2]#DELETAR          Delete
 # print(lista)
@@ -59,11 +59,32 @@ lista = [10,20,30,40] #CRIAR  Create
 # #apagando o 30 o 40 passa a ser o indice 2, ele move todos indices da frente
 # print(lista[2])
 
-lista.append(50) # adicionando item no final da lista
-lista.append(60)
-#lista.pop() #remove o último indice da lista
+# lista.append(50) # adicionando item no final da lista
+# lista.append(60)
+# #lista.pop() #remove o último indice da lista
 
-lista.append(70)
-ultimo_valor = lista.pop()
-print(lista, 'Removido,', ultimo_valor)
+# lista.append(70)
+# ultimo_valor = lista.pop()
+# print(lista, 'Removido,', ultimo_valor)
 
+"""
+Listas em Python
+Tipo list - Mutável
+Suporta vários valores de qualquer tipo
+Conhecimentos reutilizáveis - índices e fatiamento
+Métodos úteis:
+    append - Adiciona um item ao final
+    insert - Adiciona um item no índice escolhido
+    pop - Remove do final ou do índice escolhido
+    del - apaga um índice
+    clear - limpa a lista
+    extend - estende a lista
+    + - concatena listas
+Create Read Update   Delete
+Criar, ler, alterar, apagar = lista[i] (CRUD)
+"""
+
+lista = [10,20,30,40]
+lista.append('Hellen')
+nome = lista.pop()
+print(lista)
