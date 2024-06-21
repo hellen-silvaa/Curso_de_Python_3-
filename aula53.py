@@ -13,12 +13,19 @@ lista.append('João')
 # lista_enumerada = list(enumerate(lista))
 # print(lista_enumerada)
 
+#-------------------------------------------------------------
 
-for item in enumerate(lista):
-    indice, nome = item 
-    print(indice, nome)
+# for item in enumerate(lista):
+#     indice, nome = item 
+#     print(indice, nome)
 
 #esse é a mesma coisa do de cima,porém bemm mais simplificado
 #código limpo    
-for indice, nome in enumerate(lista):
-    print(indice, nome)
+# for indice, nome in enumerate(lista):
+#     print(indice, nome)
+
+#-------------------------------------------------------------
+
+for tupla_enumerada in enumerate(lista):
+    for valor in tupla_enumerada:
+        print(valor)
