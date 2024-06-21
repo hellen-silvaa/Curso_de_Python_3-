@@ -5,10 +5,11 @@ Exiba os índices da lista
 1 Helena
 2 Luiz
 """
-lista = ['Hellen', 'Helena', 'Maria']
-lista.append('João')
-indices = range(len(lista))
+# lista = ['Hellen', 'Helena', 'Maria']
+# lista.append('João')
+# indices = range(len(lista))
 
-for indice in indices:
-    print(indice, lista[indice], type(lista[indice]))
+# for indice in indices:
+#     print(indice, lista[indice], type(lista[indice]))
+
 
