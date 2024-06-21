@@ -20,12 +20,14 @@ lista.append('João')
 #     print(indice, nome)
 
 #esse é a mesma coisa do de cima,porém bemm mais simplificado
-#código limpo    
+#código limpo   melhor forma! 
 # for indice, nome in enumerate(lista):
 #     print(indice, nome)
 
-#-------------------------------------------------------------
 
+#outra forma
 for tupla_enumerada in enumerate(lista):
+    print('FOR da tupla: ' )
     for valor in tupla_enumerada:
-        print(valor)
+        print(f'{valor}')
+#-------------------------------------------------------------
