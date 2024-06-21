@@ -39,7 +39,7 @@ len -> verifica qtd de caractere
 
 #indice   0    1      2       3    4
 #indice  -5    -4    -3      -2    -1
-lista = [1,2,3,4]
+#lista = [1,2,3,4]
 #pegando o valor do indice 2 e mostrando na tela, dado mutavel
 # numero = lista[2]
 # print(numero)
@@ -50,7 +50,7 @@ Create Read Update   Delete
 Criar, ler, alterar, apagar = lista[i] (CRUD)
 """
 
-#SE EU ALTERAR A LISTA TODO LUGAR QUE EU REFERENCIAR A LISTA TAMBÉM VAI ALTERAR
+#SE EU ALTERAR A LISTA  LUGAR QUE EU REFERENCIAR A LISTA TAMBÉM VAI ALTERAR
 # lista = [10,20,30,40] #CRIAR  Create
 # lista[2] = 300 #ALTERAR       Update
 # del lista[2]#DELETAR          Delete
@@ -84,7 +84,18 @@ Create Read Update   Delete
 Criar, ler, alterar, apagar = lista[i] (CRUD)
 """
 
-lista = [10,20,30,40]
-lista.append('Hellen')
-nome = lista.pop()
-print(lista)
+# #        0   1   2   3
+# lista = [10, 20, 30, 40]
+# lista.append('Hellen')
+# nome = lista.pop()
+# lista.append(1233)
+# del lista[-1] #-1 sempre será o ultimo inserido na lista
+# #lista.clear() -> limpa lista
+# lista.insert(0, 5) #adicioanr um item no indice 0 o valor 5
+# print(lista)
+
+lista_a = [1,2,3]
+lista_b = [4,5,6]
+lista_c = lista_a + lista_b
+lista_a.extend(lista_b)
+print(lista_a)
