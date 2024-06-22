@@ -21,9 +21,22 @@ Obter o resto da divisão da conta anterior por 11
 
 Se o resultado anterior for maior que 9:
     resultado é 0
-    
+
 contrário disso:
     resultado é o valor da conta
-
+#----------------------------------------------------------------------------------------
 O primeiro dígito do CPF é 7
 """
+cpf = '74682489070'
+nove_digitos = cpf [:9] #fatiamento do indice zero ao nove
+contador_regressivo_1 = 10
+
+resultado_digito_1 = 0
+#para cada digito nos 9 digitos faça:
+for digito_1 in nove_digitos:
+    resultado_digito_1 += int(digito_1) * contador_regressivo_1
+    contador_regressivo_1 -= 1
+digito_1 = (resultado_digito_1 * 10) % 11
+#se meu digito_1 for igual a digito_1 se digito_1 for menor que 9 ao contrario será 0
+digito_1 = digito_1 if digito_1 <= 9 else 0
+print(digito_1)
