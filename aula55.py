@@ -1,0 +1,1 @@
+# Imprecisão dos números de ponto flutuante + round e decimal.Decimal
