@@ -8,6 +8,7 @@ https://docs.python.org/pt-br/3/tutorial/floatingpoint.html
 """
 
 import decimal
+# Cria uma instância Decimal para representar o número, garantindo precisão exata.
 numero_1 = decimal.Decimal('0.1')
 numero_2 = decimal.Decimal('0.7')
 numero_3 = numero_1 + numero_2
