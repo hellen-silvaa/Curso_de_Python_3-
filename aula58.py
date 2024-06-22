@@ -2,8 +2,8 @@
 Interpretador do Python
 
 python mod.py (executa o mod)
-python -u (unbuffered)
-python -m mod (lib mod como script)
+python -u (unbuffered) -> joga direto na tela
+python -m mod (lib mod como script) -> executa biblioteca como script(bin)
 python -c 'cmd' (comando)
 python -i mod.py (interativo com mod)
 
