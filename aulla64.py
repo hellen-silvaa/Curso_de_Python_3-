@@ -1,3 +1,6 @@
+#Criando um gerador de CPFs com nosso algoritmo e Python
+
+#coisas aleatorias -> random
 import random
 
 for _ in range(100):
