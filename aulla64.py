@@ -12,6 +12,7 @@ for _ in range(100):
 
     resultado_digito_1 = 0
     for digito in nove_digitos:
+        
         resultado_digito_1 += int(digito) * contador_regressivo_1
         contador_regressivo_1 -= 1
     digito_1 = (resultado_digito_1 * 10) % 11
