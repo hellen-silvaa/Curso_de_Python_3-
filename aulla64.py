@@ -20,7 +20,7 @@ for _ in range(100):
     dez_digitos = nove_digitos + str(digito_1)
     contador_regressivo_2 = 11
 
-    
+
     resultado_digito_2 = 0
     for digito in dez_digitos:
         resultado_digito_2 += int(digito) * contador_regressivo_2
