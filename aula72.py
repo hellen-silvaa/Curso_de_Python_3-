@@ -30,9 +30,10 @@ def par_impar (numero):
 
     if multiplo_de_dois:
         return f'{numero} é par'
-    else:
-        return f'{numero} é ímpar'
+    return f'{numero} é ímpar'
 
+#quando o return é atingido ele retorna o valor e sai
+#else está redundante
 print(par_impar(2))
 print(par_impar(3))
 print(par_impar(15))
