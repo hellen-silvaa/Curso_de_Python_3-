@@ -84,7 +84,6 @@
 # popitem - Apaga o último item adicionado
 # update - Atualiza um dicionário com outro
 
-
 pessoa = {
     'nome': 'Hellen',
     'sobrenome': 'Silva',
