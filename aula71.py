@@ -36,3 +36,9 @@ print(outra_soma)
 print(sum((numeros)))
 
 # print(*numeros)
+
+#args empacota o que eu enviar para a função
+#dentro de uma tupla
+
+#*numeros desempacota uma tupla para enviar 
+#como parametros para a função
