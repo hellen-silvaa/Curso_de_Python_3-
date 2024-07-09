@@ -96,3 +96,6 @@ pessoa = {
 # print(pessoa.values())
 
 # print(pessoa.items())
+
+for valor in pessoa.values():
+    print(valor)
