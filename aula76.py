@@ -21,21 +21,50 @@
 #     ]
 # }
 # pessoa = dict(nome='Hellen Silva', sobrenome='Miranda')
-pessoa = {
-    'nome': 'Hellen Silva',
-    'sobrenome': 'Miranda',
-    'idade': 18,
-    'altura': 1.8,
-    'endereços': [
-        {'rua': 'tal tal', 'número': 123},
-        {'rua': 'outra rua', 'número': 321},
-    ],
-}
-# print(pessoa, type(pessoa))
+# pessoa = {
+#     'nome': 'Hellen Silva',
+#     'sobrenome': 'Miranda',
+#     'idade': 18,
+#     'altura': 1.8,
+#     'endereços': [
+#         {'rua': 'tal tal', 'número': 123},
+#         {'rua': 'outra rua', 'número': 321},
+#     ],
+# }
+# # print(pessoa, type(pessoa))
+# print(pessoa['nome'])
+# print(pessoa['sobrenome'])
+
+# print()
+
+# for chave in pessoa:
+#     print(chave, pessoa[chave])
+
+
+# Manipulando chaves e valores em dicionários
+pessoa = {}
+
+##
+##
+
+chave = 'nome'
+
+pessoa[chave] = 'Luiz Otávio'
+pessoa['sobrenome'] = 'Miranda'
+
+
+print(pessoa[chave])
+
+pessoa[chave] = 'Maria'
+
+del pessoa['sobrenome']
+print(pessoa)
 print(pessoa['nome'])
-print(pessoa['sobrenome'])
 
-print()
+# print(pessoa.get('sobrenome'))
+if pessoa.get('sobrenome') is None:
+    print('NÃO EXISTE')
+else:
+    print(pessoa['sobrenome'])
 
-for chave in pessoa:
-    print(chave, pessoa[chave])
+# print('ISSO Não vai')
